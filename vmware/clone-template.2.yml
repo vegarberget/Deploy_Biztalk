@@ -14,7 +14,7 @@
       datacenter: "{{ VCENTER_DATACENTER }}"
       datastore: "{{ VCENTER_DATASTORE }}"
       folder: "{{ VCENTER_FOLDER }}"
-      cluster: "{{ VCENTER_CLUSTER }}"
+    #  cluster: "{{ VCENTER_CLUSTER }}"
       hardware:
         memory_mb: "{{ vcenter_memory_mb }}"
         num_cpus: "{{ vcenter_cpus }}"
