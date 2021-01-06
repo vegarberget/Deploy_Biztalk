@@ -1,4 +1,3 @@
-  
 ---
 - name: enable TLSv1.2 support
   win_regedit:
