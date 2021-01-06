@@ -1,3 +1,4 @@
+---
 - name: enable TLSv1.2 support
   win_regedit:
     path: HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\{{ item.type }}
