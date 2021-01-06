@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+  - name: Execute command in Windows
+    win_shell: dir
+    args:
+        executable: cmd
+    register: out
